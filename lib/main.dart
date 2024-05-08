@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todoapp/screens/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const Text("Hello"));
+        home: const HomeScreen());
   }
 }
